@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="E07-M1101S_V3.0">
+<description>E07-M1101S
+
+07-M1101S is a SMD wireless transceiver module, operates at 433MHz with small-size and 10mW transmitting power.</description>
+<wire x1="0" y1="12.7" x2="19" y2="12.7" width="0.127" layer="22"/>
+<wire x1="19" y1="12.7" x2="19.05" y2="12.7" width="0.127" layer="22"/>
+<wire x1="19" y1="12.7" x2="19" y2="-0.3" width="0.127" layer="22"/>
+<wire x1="19" y1="-0.3" x2="0" y2="-0.3" width="0.127" layer="22"/>
+<wire x1="0" y1="-0.3" x2="0" y2="12.7" width="0.127" layer="22"/>
+<smd name="VCC" x="0" y="10.7" dx="2" dy="0.635" layer="1"/>
+<smd name="GDO0" x="0" y="9.43" dx="2" dy="0.635" layer="1"/>
+<smd name="CSN" x="0" y="8.16" dx="2" dy="0.635" layer="1"/>
+<smd name="SCK" x="0" y="6.89" dx="2" dy="0.635" layer="1"/>
+<smd name="MOSI" x="0" y="5.61" dx="2" dy="0.635" layer="1"/>
+<smd name="MISO" x="0" y="4.35" dx="2" dy="0.635" layer="1"/>
+<smd name="GDO2" x="0" y="3.08" dx="2" dy="0.635" layer="1"/>
+<smd name="GND" x="0" y="1.7" dx="2" dy="0.635" layer="1"/>
+<smd name="ANT" x="19.05" y="1.27" dx="2" dy="0.635" layer="1"/>
+<smd name="GNDD" x="19.05" y="3.24" dx="2" dy="0.635" layer="1"/>
+<text x="6.45" y="13.29" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<text x="7.47" y="-2.79" size="1.27" layer="28" rot="MR0">&gt;VALUE</text>
+<text x="2.19" y="5.1" size="1.27" layer="27" rot="MR165">NO DESING HERE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="E07-M1101S_V3.0">
+<description>E07-M1101S
+ 
+07-M1101S is a SMD wireless transceiver module, operates at 433MHz with small-size and 10mW transmitting power.
+[IC] : CC1101
+
+[Frequency] : 387~464MHz
+
+[Power] : 10dBm
+
+[Distance] : 1.0km
+
+[Interface] : SPI
+
+[Weight] : 0.5±0.1g</description>
+<wire x1="-55.88" y1="22.86" x2="-55.88" y2="0" width="0.254" layer="94"/>
+<wire x1="-55.88" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="-55.88" y2="22.86" width="0.254" layer="94"/>
+<pin name="VCC" x="-60.96" y="2.54" length="middle"/>
+<pin name="GDO0" x="-60.96" y="5.08" length="middle"/>
+<pin name="CSN" x="-60.96" y="7.62" length="middle"/>
+<pin name="SCK" x="-60.96" y="10.16" length="middle"/>
+<pin name="MOSI" x="-60.96" y="12.7" length="middle"/>
+<pin name="MISO" x="-60.96" y="15.24" length="middle"/>
+<pin name="GDO2" x="-60.96" y="17.78" length="middle"/>
+<pin name="GND" x="-60.96" y="20.32" length="middle"/>
+<pin name="ANT" x="-2.54" y="20.32" length="middle" rot="R180"/>
+<pin name="GNDD" x="-2.54" y="17.78" length="middle" rot="R180"/>
+<text x="-55.88" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-55.88" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="E07-M1101S_V3.0" uservalue="yes">
+<description>E07-M1101S
+&lt;[IC] : CC1101
+
+[Frequency] : 387~464MHz
+
+[Power] : 10dBm
+
+[Distance] : 1.0km
+
+[Interface] : SPI
+
+[Weight] : 0.5±0.1g
+
+[Introduction] : 07-M1101S is a SMD wireless transceiver module, operates at 433MHz with small-size and 10mW transmitting power.
+
+http://www.ebyte.com/en/product-view-news.aspx?id=167
+
+Desinged by suleyman eskil &gt;</description>
+<gates>
+<gate name="G$1" symbol="E07-M1101S_V3.0" x="30.48" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="E07-M1101S_V3.0">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="CSN" pad="CSN"/>
+<connect gate="G$1" pin="GDO0" pad="GDO0"/>
+<connect gate="G$1" pin="GDO2" pad="GDO2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GNDD" pad="GNDD"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
